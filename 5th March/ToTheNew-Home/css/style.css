@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box ;
+}
+
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    background-color: #F6F6F6;
+    position: relative;
+}
+
+.gradient {
+    background-image: linear-gradient( to left, white, #F6F6F6);
+}
+
+
+
+.logo-container{
+    display: inline-block;
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hello{
+    display: inline-block;
+    position: absolute;
+    top: 47px;
+    left: 164px;
+    font-family: 'Muli', sans-serif;
+}
+
+.menu{
+    display: inline-block;
+    width: 80%;
+    float: right;
+}
+
+.sub-menu{
+    float: right;
+
+    background-color: white;
+    width: 1000px;
+}
+
+.sub-menu ul{
+    list-style-type: none;
+    float: right;
+    padding-right: 20px;
+}
+
+.sub-menu ul li{
+    display: inline-block;
+   padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sub-menu ul li a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: #777777;
+    font-size: 12px;
+
+}
+
+.sub-menu ul li a:last-child{
+
+}
+
+.main-menu{
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+}
+
+.main-menu ul{
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+.main-menu ul li{
+    display: inline-block;
+    padding-left: 40px;
+}
+
+.main-menu ul li a{
+    text-decoration: none;
+    color: #626262;
+    font-size: 14px;
+
+}
+
+.main-menu ul li a:hover{
+    border-bottom: 5px solid #EA8841;
+    padding-bottom: 5px;
+
+}
+
+
+
+.banner{
+    background: linear-gradient( to top, white, transparent 99%), url("../assets/background3.jpg");
+    background-size: cover;
+    width: 100%;
+}
+
+
+
+
+
+.banner-text{
+    width: 90%;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Open Sans  Condensed', sans-serif;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.banner-text-bold{
+    font-family: 'Open Sans  Condensed', sans-serif;
+
+}
+
+.services{
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
+
+
+.service-card{
+    text-align: center;
+    display: inline-block;
+    padding: 50px;
+    float: left;
+    border-right: 2px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+.service-card p{
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.service-card:last-of-type{
+    border: none;
+}
+
+.gradient-hoz {
+    border-image: linear-gradient(to bottom, transparent 30% , gray , transparent 60%) 1 100%;
+}
+
+.sub-services{
+    width: 100%;
+    margin: 0 auto;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    margin-bottom: 5px;
+}
+
+.sub-services ul{
+    width: 75%;
+        margin: 0 auto;
+    list-style-type: none;
+
+}
+
+.sub-services ul li{
+    display: inline-block;
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    padding-left: 49px;
+    border-right: 2px solid;
+    border-image: linear-gradient(to bottom, transparent 20% , gray , transparent 80%) 1 100%;
+}
+
+.sub-services ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+.sub-services ul li a p:first-of-type{
+    color: orangered;
+    font-size: 20px;
+}
+
+.sub-services ul li  a:last-of-type{
+    border: none;
+}
+
+
+footer{
+    background-color: black;
+}
+
+
+.footer-img{
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.map-point{
+    position: absolute;
+    width: 0;
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 0;
+
+
+}
+
+.delhi{
+    top: 137px;
+    left: 498px;
+}
+
+.mumbai{
+    top: 153px;
+    left: 486px;
+}
+
+.dubai{
+    top: 143px;
+    left: 441px;
+}
