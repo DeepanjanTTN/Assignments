@@ -1,0 +1,250 @@
+body{
+	margin : 0px;
+}
+
+#main-container{
+	 
+	
+}
+
+header{
+	background-color: #EEE9EA;
+	position: relative;
+}
+
+.headerContainer{
+	width: 80%; 
+	margin: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#logo{
+	display: inline-block;
+}
+
+#pageLinks{
+	display: inline-block;
+	float: right;
+	padding-top: 15px;
+}
+
+.links{
+	padding: 15px;
+	text-decoration: none;
+	color: #8F6774;
+
+}
+
+#HomeLink{
+	color: #C10049;
+}
+
+#mobile-menu{
+	display: none;
+}
+
+#home{
+	background-color: #F9F9F9;
+	display: block;
+}
+
+#big-home{
+	position: relative;
+}
+#big-home{
+	width: 80%; 
+	margin: auto;
+}
+
+#big-home-img{
+	
+	max-width: 100%;
+	display: block;
+}
+
+#big-icon{
+	position: absolute;
+	z-index: 2;
+	right: 150px;
+	bottom: 0;
+	width: 156px;
+	height: 152px;
+
+}
+
+#logo-text{
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	font-size: 25px;	
+  	color: white;
+}
+#div1{
+
+	max-width: 100%;
+	background-color: #EAE5E6;
+	
+}
+
+#newProd{
+	
+	display: flex;
+	width: 80%;
+	margin: auto;
+	position: relative;
+}
+
+#newProdContent {
+	width: 80%;
+	margin: auto;
+	
+}
+
+#newProdContent p {
+	margin: 0px;
+
+}
+
+#text1{
+	padding-top: 50px;
+	font-size: 30px;
+	color: #7F6579;
+}
+
+#text2{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 40px;
+	color: #F30066;
+}
+
+.textbottom{
+	padding: 3px 3px 3px 0px;
+	
+	color: #AF9A94;
+}
+
+#lastText{
+	padding-bottom: 50px;
+}
+
+#yogurtImg{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#div3{
+	max-width: 100%;
+	background-color:  #A9EC00;	
+	
+
+}
+
+#options{
+	width: 80%	;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+.options-img-div{
+	vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}	
+
+.caption{
+	display: block;
+	margin-top: 10px;
+	font-size: 25px;
+	color: #F8F8F8;
+}
+
+footer{
+	background-color: #D90052;
+}
+
+
+
+#footer-content{
+	width:300px;
+	margin: auto;
+}
+
+#social-media-logo{
+	
+	display: flex;
+	justify-content: space-around;
+	padding-top: 60px;
+	padding-bottom: 30px;
+
+}
+#footer-text{
+	display: block;
+	text-align: center;
+	padding-bottom: 60px;
+	color: #FFFFFF;
+}
+
+
+@media only screen and (max-width: 600px) {
+	
+	#logo{
+		width: 50%;
+		margin: auto;
+		display: block;
+	}
+
+	#pageLinks{
+		display: none;
+	}
+
+	#big-home{
+		padding-bottom: 162px;
+		background-color: #F9F9F9;
+	}
+
+	#big-icon {
+    position: absolute;
+    z-index: 2;
+    right: 50%;
+    bottom: 0;
+    width: 156px;
+    height: 152px;
+    background-color: #F9F9F9;
+    transform: translate(50%, 0%);
+	}	
+
+	#mobile-menu{
+		position: absolute;
+		display: block;
+		right: 20px;
+    	top: 10px;
+	}
+	#newProdContent{
+		padding-bottom: 214px;
+	}
+
+	#yogurtImg{
+		right: 50%;
+		bottom: 0;
+		transform: translate(50%, 0%);
+	}
+	#options
+	{
+		flex-direction: column;
+	}
+}
+
+
+
+
+
+
+
+

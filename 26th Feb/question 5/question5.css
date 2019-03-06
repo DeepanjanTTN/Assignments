@@ -1,0 +1,24 @@
+.table1,tr,td{
+width:100%;
+border:1px solid black;
+border-collapse: collapse;
+text-align: center;
+background: #add8e6;
+
+}
+#banner{
+padding:30px;
+}
+
+#footer{
+padding:15px;
+}
+#picture{
+padding:0 30px;
+}
+
+
+.table2{
+border:none;
+padding:0 15px;
+}
