@@ -1,0 +1,288 @@
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+
+    background-image: url("../assets/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrap-header{
+    display: flex;
+}
+#logo{
+   padding: 9%;
+}
+.wrapper{
+    width: 85%;
+    margin: 0 auto;
+}
+.logo-container{
+    display: flex;
+}
+
+
+.lang{
+    position: relative;
+    display: inline-block;
+    margin-top: 25px;
+    color: white;
+    max-height: 100%;
+    width: 100px;
+    text-align: center;
+}
+
+.lang:hover .fa-angle-right{
+    transform: rotate(90deg);
+}
+
+.lang ul{
+    display: none;
+    padding: 0;
+    position: absolute;
+    list-style-type: none;
+    left: 0;
+    top: 5px;
+    background-color: white;
+    color: black;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.lang ul li{
+    max-width: 100%;
+    padding: 10px 10px 10px 5px;
+    border-bottom: 1px solid grey;
+}
+.lang ul li:hover{
+    color: orangered;
+}
+
+.lang ul li:last-child{
+    border-bottom: none;
+}
+
+.lang:hover ul {
+    display: block;
+}
+
+.drop{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item{
+    margin-top: 1%;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 5%;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+.active{
+    border-bottom: 3px solid #fff;
+    height: 23px;
+}
+.mainmenu{
+    display: flex;
+    width: 100%;
+    margin-top: 3%;
+    margin-left: 28%;
+}
+.user{
+    margin-top: -14%;
+}
+
+
+.dropprofile{
+    display: inline-block;
+    margin-top: 1%;
+    color: white;
+    position: relative;
+}
+
+.dropprofile ul{
+    display: none;
+    padding: 0;
+    position: absolute;
+    list-style-type: none;
+    left: 0;
+    top: 5px;
+    background-color: white;
+    color: black;
+    width: 100px;
+    border-radius: 10px;
+
+}
+
+.dropprofile ul li{
+    max-width: 100%;
+    padding: 10px 10px 10px 5px;
+    border-bottom: 1px solid grey;
+}
+
+.dropprofile:hover ul{
+    display: block;
+}
+
+.dropprofile ul li:hover{
+    color: orangered;
+}
+
+
+
+.banner{
+    background-image: url("../assets/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.path{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+    font-weight: 700;
+    padding-top: 1%;
+}
+h1{
+    color:white;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+}
+.tagline {
+    margin-top: 0;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.involve-button{
+    border: none;
+    border-radius: 500px;
+    color:white;
+    padding: 1% 3%;
+    font-size: 18px;
+
+    background: rgba(255,146,10,1);
+    background: linear-gradient(to right, rgba(255,146,10,1) 0%, rgba(248,82,0,1) 97%, rgba(248,82,0,1) 100%);
+}
+.button{
+    text-align: center;
+}
+.banner{
+    height: 399px;
+    width: 100%;
+}
+.featured-heading{
+    text-align: center;
+    font-size: 40px;
+    color:	#0D1114;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.card{
+    box-shadow: 0 0 20px 10px #D3D3D3;
+    display: flex;
+}
+.name{
+    opacity: 0.8;
+    border-radius: 10px;
+    float: right;
+    position: absolute;
+    margin-top: -11%;
+    margin-left: 20%;
+    width: 18%;
+    background-color: white;
+    height: 100px;
+}
+.presentator-name{
+    margin-left: 15%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 9%;
+
+}
+.presentator-desig{
+    margin-left: 15%;
+    margin-top: 0;
+}
+.circle{
+    width: 51px;
+    height: 50px;
+    background-color: #FF920A;
+    position: absolute;
+    margin-top: -9%;
+    margin-left: 18.5%;
+    border-radius: 50%;
+}
+.arrow-right {
+    width: 0;
+    height: 0;
+    margin-left: 20%;
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+    border-left: 13px solid white;
+    margin-top: -8.1%;
+    position: absolute;
+}
+.video{
+    display: inline-block;
+}
+.suggestion{
+    display: inline-block;
+}
+.ofline{
+    filter: contrast(30%);
+}
+.circle-small{
+    width: 40px;
+    height: 39px;
+    background-color: #FF920A;
+    position: absolute;
+    margin-top: -7%;
+    margin-left: 5.5%;
+    border-radius: 50%;
+
+}
+.arrow-right-small{
+    width: 0;
+    height: 0;
+    margin-left: 6.5%;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-left: 9px solid white;
+    margin-top: -6.3%;
+    position: absolute;
+
+}
+.angle{
+display: inline-block;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.copyright{
+    text-align: center;
+    font-weight: 600;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
