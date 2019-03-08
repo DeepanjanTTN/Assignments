@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DejaVu Sans";
+}
+
+.clearfix{
+    clear: both;
+    display: table;
+    content:'';
+}
+
+.container{
+    width:100%;
+    height: 100%;
+}
+
+.wrapper{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background: url("assets/banner.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+header::before{
+    position: absolute;
+    content:"";
+    display: block;
+    height: 100%;
+    /*top: 0;*/
+    /*left: 0;*/
+    width: 100%;
+    background-color: rgba(53, 59, 72, 0.73);
+}
+
+.top-header{
+    /*line-height: 84px;*/
+    position: relative;
+    border-bottom: 1px solid #fff;
+    padding-top: 42px;
+    padding-bottom:42px;
+    /*z-index: 1000;*/
+}
+
+.top-header .logo-text{
+    /*line-height: 84px;*/
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    color: #fff;
+}
+
+.hamburger{
+    display: inline-block;
+    position: absolute;
+    top:50%;
+    right:5%;
+    transform: translateY(-50%);
+    /*float: right;*/
+}
+
+.hamburger-bar{
+    width: 20px;
+    height: 5px;
+    border: 1px solid white;
+    background-color: white;
+    margin-bottom: 2px;
+    border-radius: 1px;
+}
+
+.top-header .menu{
+    float: right;
+    display:none;
+}
+
+.top-header .menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.menu li:last-child{
+    padding-right: 0;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.banner{
+    padding-top: 42px;
+    padding-bottom: 42px;
+    position: relative;
+    /*z-index: 900;*/
+}
+
+.banner-content{
+    text-align: center;
+}
+
+.banner-content h3{
+    color: white;
+}
+
+.card-container ul{
+    list-style-type: none;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.card-container .card{
+    line-height: 20px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.card:last-child{
+    padding-bottom: 0;
+}
+
+.card i{
+    color: #6BBF8F;
+    margin-bottom: 15px;
+}
+
+.card h4{
+    color: #fff;
+}
+
+.card p{
+    color: lightgrey;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.card-button{
+    padding: 10px 20px;
+    background: transparent;
+    color: #6BBF8F;
+    border: 3px solid #6BBF8F;
+    border-radius: 20px;
+}
+
+.main-section{
+    width: 70%;
+    margin-left:  auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+.main-card{
+    text-align: center;
+    padding-top: 50px;
+    line-height: 30px;
+    width: 100%;
+}
+
+
+.main-card img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/*.main-card h2, p, button{*/
+    /*margin-bottom: 20px;*/
+/*}*/
+
+footer {
+    color: #fff;
+    background-color: #6BBF8F;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer h3{
+    text-align: center;
+    padding-bottom: 40px;
+}
+footer form{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer form label{
+    display: block;
+    font-weight: bold;
+}
+
+footer .form-inputs{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    /*border: 1px solid lightgray;*/
+    border-radius: 10px;
+    background: transparent;
+    color: rgba(255,255,255,0.5);
+}
+
+footer .message-box{
+    line-height: 200px;
+    margin-bottom: 0;
+}
+
+.submit-button{
+    color: #fff;
+    border: 2px solid #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.credits{
+    text-align: center;
+    color: #ffffff;
+    font-size: small;
+}
+
+.name-email{
+    width: 100%;
+    float: none;
+}
+
+/*----For Tablets-----------*/
+@media screen and (min-width: 768px) {
+    /*.card-container{*/
+    /*font-size: 0;*/
+    /*}*/
+
+    .banner .card{
+        display: inline-block;
+        border-right: 1px solid #fff;
+        padding-bottom: 0;
+        width: 32%;
+        /*font-size: 0;*/
+    }
+
+    .card:last-child{
+        border-right: 0;
+    }
+
+    .main-section{
+        width: 50%;
+    }
+}
+
+
+/*----For Desktop-----------*/
+@media screen and (min-width: 1024px) {
+
+    .top-header .hamburger{
+        display: none;
+    }
+
+    .top-header .menu{
+        display: block;
+    }
+
+    .top-header .menu  li a:hover {
+        color: #6BBF8F;
+    }
+
+    .main-section{
+        width: 90%;
+    }
+    .main-card{
+        display: inline-block;
+        width: 49%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    form div{
+        width: 49%;
+    }
+
+    .name{
+        float: left;
+    }
+
+    .email{
+        float: right;
+    }
+}
+
+
