@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Question 1</h1>
+
+    <div id="demo"></div>
+
+
+
+
+
+
+  <script>
+    var arr = [3,62,234,7,23,74,23,76,92];
+    var arr2 = [];
+    var greaterThan70 = (param) => {
+        for( var i in param){
+
+          if(param[i] > 70){
+            arr2.push(param[i]);
+          }  
+      }
+        return arr2;
+    };
+    document.getElementById("demo").innerText = greaterThan70(arr);
+  </script>
+</body>
+</html>
