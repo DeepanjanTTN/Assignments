@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<button onclick="clicker()">Click me</button>
+<p>Number of instances formed after clicking is</p>
+<p id= "val">0</p>
+
+
+<script type="text/javascript">
+function MyObj() {
+    MyObj.count++;
+}
+MyObj.count = 0;
+function clicker() {
+	new MyObj();
+	document.getElementById('val').innerHTML = MyObj.count;
+}
+
+var obj1 = new MyObj();
+
+</script>
+</body>
+</html>
+
