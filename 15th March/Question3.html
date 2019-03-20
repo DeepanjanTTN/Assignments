@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+
+
+
+
+    <script>
+        class Data
+  {
+    constructor()
+    {
+       this.x=5;
+       this.y=10;
+    }
+  }
+
+class product extends Data
+  {
+    constructor()
+    {
+       super();
+    }
+    
+    static multiply = (x,y) =>
+    {
+      return x * y;
+    }
+  }
+  
+class sum extends Data
+  {
+     constructor()
+    {
+       super();
+    }
+    
+    static addition = (x,y) =>
+    {
+      return x + y;
+    }
+  }
+  
+  
+let obj1 = new Data();
+let add = new sum();
+sum.addition(5,2);
+console.log(sum.addition(5,2));
+
+    </script>
+</body>
+</html>

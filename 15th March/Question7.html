@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+
+    <script>
+        let flatten = (arr) =>
+            {
+            var array = [];
+            while(arr.length) {
+                var value = arr.shift();
+                if(Array.isArray(value)) {
+                // this line preserve the order
+                arr = value.concat(arr);
+                } else {
+                array.push(value);
+                }
+            }
+            return array;
+            }
+
+
+            console.log(flatten([1,2,3,[5,6,7,[4,5,6],7], 23,76, [45,67]]));
+   
+    </script>
+</body>
+</html>
