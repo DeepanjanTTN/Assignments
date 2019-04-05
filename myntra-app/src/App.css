@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');  
+
+
+.cardList{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardList li {
+    display: inline-block;
+}
+
+.brand-name{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    line-height: 5px;
+
+}
+
+.brand-name h1{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.card2-ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+
+.card2-ul li{
+    display: inline-block;
+    width: 25%;
+}
