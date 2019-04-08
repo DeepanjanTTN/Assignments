@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    padding-right:130px;
+    padding-left:80px;
+    font-size: 20px;
+    color: yellow;
+    background-image: url('./hbk.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+
+.link{
+    text-decoration: none;
+    margin-right: 50px;
+    color:yellow;
+
+}
+

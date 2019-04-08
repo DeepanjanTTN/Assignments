@@ -1,0 +1,35 @@
+.login {
+  max-width: 40%;
+  margin: auto;
+  margin-top: 10%;
+  font-weight:bold;
+  font-size:25px;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  width: 100%;
+  background-color: #243e50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.account_details{
+  background-color:lightgray;
+  width:300px;
+  margin-left: 500px;
+  border-radius: 50px;
+  text-align: center;
+  padding: 10px;
+}
