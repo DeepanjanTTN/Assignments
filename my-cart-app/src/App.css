@@ -1,0 +1,24 @@
+.myCart-cont{
+    text-align: center;
+}
+
+
+.heading{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin-right: 350px;
+    margin-left: 350px;
+}
+
+.li-elm{
+    border: 1px solid black;
+    box-shadow: 2px 2px rgb(192, 192, 192);
+    padding: 10px;
+    margin-bottom: 10px;
+}
